@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin-up</title>
+    <link rel="stylesheet" href="./signin-up.css">
+    
+</head>
+<body>
+    
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1 >عضویت</h1>
+			
+			<span>یا از ایمیل خود برای ثبت نام استفاده کنید</span>
+			<input type="text" placeholder="نام" class="name"/>
+			<input type="email" placeholder="ایمیل" class="email" />
+			<input type="password" placeholder="رمز" class="password"/>
+			<button class="signup">ثبت نام</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>ورود</h1>
+			
+			<span>یا از اکانت خود استفاده کنید</span>
+			<input type="email" placeholder="ایمیل" class="signin-email" />
+			<input type="password" placeholder="رمز"  class="signin-password"/>
+			<a href="#" class="guide">رمز خود را فراموش کرده اید ؟</a>
+			<button class="signin">ورود</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>دیدار مجدد</h1>
+				<p>برای اینکه با ما دائم در ارتباط باشید لطفا با اطلاعات شخصی خودتان وارد شوید</p>
+				<button class="ghost" id="signIn">ورود</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>! سلام رفیق</h1>
+				<p>لطفا اطلاعات شخصی خود را وارد کنید تا باهم راه را شروع کنیم</p>
+				<button class="ghost" id="signUp">ثبت نام</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script src="./signin-up.js"></script>
+</body>
+</html>
