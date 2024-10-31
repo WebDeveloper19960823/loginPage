@@ -1,7 +1,5 @@
 
-Certainly! Here’s a suggested description you can use for your GitHub repository that showcases your login page design, local storage functionality, and password hashing:
-
-Login Page with Local Storage and Password Hashing
+# Login Page with Local Storage and Password Hashing
 This repository contains a simple yet functional login page designed using HTML, CSS, and JavaScript. The application demonstrates how to store user credentials securely in local storage and hash passwords before saving them.
 
 Features
