@@ -19,7 +19,7 @@ To run this project locally:
 
 ## bash
 Copy code
-git clone [https://github.com/Existentialis/loginPage.git]
+git clone [https://github.com/invokeInFuture/loginPage.git]
 Open index.html in your preferred web browser.
 
 ## Usage
